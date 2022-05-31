@@ -18,30 +18,42 @@
   flex-wrap: wrap;
 }
 
-.cell{
+.cell {
   width: 64px;
   height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .cell img {
   width: 48px;
   height: 48px;
   position: relative;
 }
-.black{
-background-color: rgb(143, 143, 251);
+
+.black {
+  background-color: rgb(143, 143, 251);
 }
-.white{
-background-color: rgb(253, 253, 157);
+
+.white {
+  background-color: rgb(253, 253, 157);
 }
+
 .selected {
   background-color: rgb(88, 56, 56);
 }
+
 .available {
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: rgb(69, 133, 69);
+}
+
+.lost {
+  height: calc(50vh - 60px);
+  padding: 30px;
+  margin-left: 50px;
+  background-color: lightgray;
 }
